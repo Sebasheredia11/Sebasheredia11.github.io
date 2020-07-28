@@ -1,3 +1,144 @@
-<h1> Hola Papa Te Amo <h1/>
-<p>Señor Bravo</p>	
-						 
+<!DOCTYPE html>
+<html lang = "es">
+    <head> 
+        <meta charset="UTF-8"/>
+        <title>Leonardo Heredia </title>
+        <link rel="icon" type="image/png" href="CC.png">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+        <body class="fondo">  
+            <header  class="header">
+                <div class="container">
+                    <figure class="logo">
+                    <img src="LEOOO.png" alt="Imagen de cabecera" width="250" height="50   ">  
+                    </figure>
+                    <nav class="menu">
+                        <ol>    
+                            <li> 
+                              <a class="link" href = "#portafolio"> Portafolio  </a> <!--Esto hace que la palabra se convierta en un enlace, la subraya de otro color-->
+                          </li>
+                            <li>
+                             <a class="link" href = "#eventos"> Experiencia  </a>
+                           </li>
+                          <li>
+                              <a class="link" href = "#contacto"> Contactanos </a>
+                          </li>
+                        </ol>
+                    </nav>
+                </div>                                     
+            </header> 
+            <section class="hero">
+                <div class="container">
+                    <h1>
+                        Hola! Soy <strong>Leonardo Heredia</strong><br><strong>Profesional</strong> En la<br> Construccion y <br><strong>Contratista</strong>
+                    </h1>
+                    <img class="hero_image" src = "nice.jpg" width="500" height="300" alt="Imagen principal del sitio"> 
+                </div>               
+            </section>
+            <section  id="portafolio" class="portafolio"> 
+                <div class="container">
+                    <h2>Trabajos Realizados</h2>
+                <article class="project">
+                    <div class="project_details">
+                         <h3 class="project_title">Naska Digital</h3>
+                        <h6 class="project_course">Remodelacion - Sede Principal</h6>
+                        <p class="project_date"><small><strong>Fecha:</strong> 2019-04-05</small> </p>
+                        <p class="project_url"><small><strong>Pagina Oficial:</strong> https://www.naskadigital.com/</small> </p class="project_url" >
+                        <p class="project_description">
+                        Se remodelo totalmente la sede principal ubicada en la ciudad de Bogota
+                    </p>
+                    </div>
+                   
+                <figure class="project_imageContainer">
+                    <img class="project_image"   src="naska.png" width="500" height="400">
+                </figure>            
+                </article>
+                <article class="project">
+                    <div class="project_details">
+                         <h3 class="project_title">Platzi Video</h3>
+                        <h6 class="project_course">React Native / React</h6>
+                        <p class="project_date"><small><strong>Fecha:</strong> 01/05/56</small> </p>
+                        <p class="project_url"><small><strong>Puedes Verlo en:</strong> www.leonardoHeredia.comn</small> </p class="project_url" >
+                        <p class="project_description">
+                        Esta casa la diseñe con mi hermoso hijo Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum soluta, labore dignissimos, quo libero maiores similique praesentium quam optio maxime reprehenderit? Culpa labore sapiente facere recusandae optio quis nobis ipsa!
+                    </p>
+                    </div>
+                   
+                <figure class="project_imageContainer">
+                    <img class="project_image"   src="decoracion.jpg" width="500" height="400">
+                </figure>            
+                </article>
+                </div>                
+            </section>
+            <div class="container">
+                 <h2 class="event_list_title" >Mas sobre mi experiencia</h2>
+            </div>          
+            <section id="eventos" class="event_list">  
+                <div class="container">
+                    <article class="event">
+                    <figure class="event_imageContainer">
+                        <img class="event_image" src="interiores.jpg" width="200" height="190"> <br>
+                    </figure>
+                    <div class= "event-detail">
+                        <h3 class="event_title">
+                            Platzi Conf Mexico 2018
+                        </h3>
+                        <p class="event_description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Voluptatem maxime cumque nam reiciendis reprehenderit obcaecati explicabo 
+                            quos veritatis tenetur blanditiis. Vero laboriosam recusandae dolor, saepe ut totam natus fugit dolore
+                        </p>
+                        <a class="event_url"href="https://www.youtube.com/watch?v=4gpqv-4iDm4" target="_blank">Ver Platica</a>
+                    </div>
+                   
+                </article>
+                
+                </article>
+                <article class="event">
+                    <figure class="event_imageContainer">
+                        <img class="event_image" src="interiores.jpg" width="200" height="190"> <br>
+                    </figure>
+                    <div class= "event-detail">
+                        <h3 class="event_title">
+                            Platzi Conf Mexico 2018
+                        </h3>
+                        <p class="event_description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Voluptatem maxime cumque nam reiciendis reprehenderit obcaecati explicabo 
+                            quos veritatis tenetur blanditiis. Vero laboriosam recusandae dolor, saepe ut totam natus fugit dolore
+                        </p>
+                        <a class="event_url" href="https://www.youtube.com/watch?v=4gpqv-4iDm4" target="_blank">Ver Platica</a>
+                    </div>
+                   
+                </article>
+                </div>                
+            </section> 
+            <section id="contacto" class="contact">
+                <div class="container">
+                    <form action="/suscripcion/" class="form_email">
+                    <h3>¿Necesitas De Nuestros Servicios?</h3>
+                    <input type="text" placeholder="Dejanos Tu Email" >                 
+                    <button>Enviar</button>
+                    </form>
+                <div class="social"> 
+                </div>
+                
+                    <a href="https://www.facebook.com/jorgeleonardo.herediafonseca" class="social_link facebook"></a>
+                    <a href="https://www.instagram.com/jorgeleonardoherediafonseca/?hl=es-la"class="social_link instagram"></a>                     
+                </div>
+            </section>              
+            <footer class="footer">
+                <div class="container">
+                     <div>
+                    <p>  Jorge Leonardo Heredia Fonseca <img src="ubi.png"  width="50" height="50" alt=""></p>
+                </div>
+                <div>
+                    <p>
+                        Creado Por Sebastian Heredia <a href="https://www.linkedin.com/in/sebastian-heredia-rojas-3a7a08189/"></a>
+                    </p>
+                </div>
+                </div>
+               
+            </footer>
+         </body>
+</html> 
